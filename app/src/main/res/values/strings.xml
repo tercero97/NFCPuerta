@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Opening Door</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_display_name">Username</string>
+    <string name="pref_default_display_name"></string>
+
+    <string name="pref_title_account">Enable this user account</string>
+    <string name="pref_description_account">This account could be used to open doors</string>
+    <string name="pref_title_server_endpoint">Server Endpoint</string>
+    <string name="pref_default_server_endpoint">http://docker-fidouaf-server:8080</string>
+    <string name="pref_title_degreg_op_request">Deregistration Operation Request</string>
+    <string name="pref_default_dereg_op_request">/fidouaf/v1/public/deregRequest</string>
+    <string name="pref_title_auth_op_response">Authentication Operation Response</string>
+    <string name="pref_default_auth_op_response">/fidouaf/v1/public/authResponse</string>
+    <string name="pref_title_auth_op_request">Authentication Operation Request</string>
+    <string name="pref_default_auth_op_request">/fidouaf/v1/public/authRequest</string>
+    <string name="pref_title_reg_op_response">Registration Operation Response</string>
+    <string name="pref_default_reg_op_response">/fidouaf/v1/public/regResponse</string>
+    <string name="pref_title_reg_op_request">Registration Operation Request</string>
+    <string name="pref_default_reg_op_request">/fidouaf/v1/public/regRequest</string>
+    <string name="pref_title_whitelisting_uuid">Whitelisting the UUID</string>
+    <string name="pref_default_whitelisting_uuid">/fidouaf/v1/whitelistuuid/</string>
+    <string name="pref_title_whitelisting_facetid">Whitelisting the Facet Id</string>
+    <string name="pref_default_whitelisting_facetid">/fidouaf/v1/whitelistfacetid/</string>
+
+
+    <string name="registerAuthenticatorMessage">Register</string>
+    <string name="statusMessage">FIDO UAF Client is not registered yet.</string>
+    <string name="authenticationMessage">Do an authentication request</string>
+    <string name="servicedescription">Service card reader</string>
+    <string name="aiddescription">aiddescription</string>
+
+
+    <string name="alert_error_title">Something is wrong</string>
+    <string name="no_fido_client_found">No FIDO UAF Client was found.</string>
+    <string name="operation_cancelled">The FIDO operation was cancelled.</string>
+    <string name="activity_result_error">Unexpected activity result code: </string>
+    <string name="internal_server_error">Internal Server Error</string>
+    <string name="connection_error">The server is not reachable</string>
+    <string name="whitelisting_error">Something is wrong when trying to whitelisting</string>
+    <string name="whitelisting_ok">Successful</string>
+    <string name="button_done">Done</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_whitelisting_facetid">Whitelisting facetID</string>
+    <string name="username_label">Username:</string>
+    <string name="keyid_label">KeyId:</string>
+    <string name="pubkey_label">PubKey:</string>
+    <string name="DeRegMessage">DeRegister</string>
+    <string name="pubkey_title">Public Key</string>
+    <string name="server_label">Endpoint:</string>
+    <string name="action_sign">See app facetID</string>
+    <string name="app_sign_dialog">Your application facetID</string>
+    <string name="button_go_to_settings">Go to Settings</string>
+    <string name="emptyusername">Username is empty</string>
+    <string name="emptyusernamemessage">You need to define a username.</string>
+
+</resources>
