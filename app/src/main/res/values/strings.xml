@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Opening Door</string>
+    <string name="app_name">NFC Puerta</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_settings">Settings</string>
 
